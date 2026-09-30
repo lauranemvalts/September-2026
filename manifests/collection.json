@@ -1,0 +1,16 @@
+{
+  "id" : "https://lauranemvalts.github.io/September-2026/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in lauranemvalts/September-2026 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://lauranemvalts.github.io/September-2026/manifests/manifest2.json",
+    "label" : {
+      "en" : [ "Laura's manifest" ],
+      "et" : [ "Laura manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
