@@ -39,7 +39,7 @@
       "et" : [ "Eesti Rahvusraamatukogu. Materjal on avalikus omandis." ]
     }
   },
-  "rights" : "https://creativecommons.org/publicdomain/mark/1.0/",
+  "rights" : "http://creativecommons.org/publicdomain/mark/1.0/",
   "items" : [ {
     "id" : "https://example.org/kmeb0lqt9y-muntcy2q/canvas/cxpjxd3n6xl-muntjg7f",
     "type" : "Canvas",
