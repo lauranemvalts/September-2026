@@ -1,0 +1,899 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://lauranemvalts.github.io/September-2026/manifests/manifest2.json",
+  "type": "Manifest",
+  "behavior": [
+    "individuals"
+  ],
+  "label": {
+    "en": [
+      "Laura's manifest"
+    ],
+    "et": [
+      "Laura manifest"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Author"
+        ],
+        "et": [
+          "Autor"
+        ]
+      },
+      "value": {
+        "none": [
+          "Laura Nemvalts"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Description"
+        ],
+        "et": [
+          "Kirjeldus"
+        ]
+      },
+      "value": {
+        "en": [
+          "1930s postcards of Taevaskoja"
+        ],
+        "et": [
+          "1930ndate postkaardid Taevaskojast"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "This manifest was created as part of the IIIF workshop."
+    ],
+    "et": [
+      "See manifest on loodud IIIF koolituse raames."
+    ]
+  },
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Source"
+      ],
+      "et": [
+        "Allikas"
+      ]
+    },
+    "value": {
+      "en": [
+        "National Library of Estonia. The material is in public domain."
+      ],
+      "et": [
+        "Eesti Rahvusraamatukogu. Materjal on avalikus omandis."
+      ]
+    }
+  },
+  "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "items": [
+    {
+      "id": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/cxpjxd3n6xl-muntjg7f",
+      "type": "Canvas",
+      "height": 2059,
+      "width": 3248,
+      "label": {
+        "en": [
+          "Page 1"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Location"
+            ],
+            "et": [
+              "Asukoht"
+            ]
+          },
+          "value": {
+            "none": [
+              "Taevaskoja"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Photographer"
+            ],
+            "et": [
+              "Fotograaf"
+            ]
+          },
+          "value": {
+            "none": [
+              "Anna Kukk"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/images-0001_202609%2fIMAGES_0001.jpg/full/406,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 257,
+          "width": 406
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/cxpjxd3n6xl-muntjg7f/annotation-page/37x4tnffcqu-muntjg7f",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/kmeb0lqt9y-muntcy2q/annotation/946k7d0cdxd-muntjg7e",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/cxpjxd3n6xl-muntjg7f",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/images-0001_202609%2fIMAGES_0001.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2059,
+                "width": 3248,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/images-0001_202609%2fIMAGES_0001.jpg",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3248,
+                    "height": 2059,
+                    "sizes": [
+                      {
+                        "width": 102,
+                        "height": 64
+                      },
+                      {
+                        "width": 203,
+                        "height": 129
+                      },
+                      {
+                        "width": 406,
+                        "height": 257
+                      },
+                      {
+                        "width": 812,
+                        "height": 515
+                      },
+                      {
+                        "width": 1624,
+                        "height": 1030
+                      },
+                      {
+                        "width": 3248,
+                        "height": 2059
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 6687632,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://lauranemvalts.github.io/September-2026/manifests/annotations/page-1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://lauranemvalts.github.io/September-2026/manifests/annotations/94b631c3-b40e-46b5-aa52-7d5635135032",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "purpose": "commenting",
+                "value": "Suur Taevaskoda",
+                "format": "text/plain"
+              },
+              "target": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/cxpjxd3n6xl-muntjg7f#xywh=77,243,2392,854",
+              "created": "2026-10-01T06:42:16.706Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/kcwerocuclj-muntpixj",
+      "type": "Canvas",
+      "height": 2059,
+      "width": 3236,
+      "label": {
+        "en": [
+          "Page 2"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Location"
+            ],
+            "et": [
+              "Asukoht"
+            ]
+          },
+          "value": {
+            "none": [
+              "Taevaskoja"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/images-0002%2fIMAGES_0002.jpg/full/405,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 257,
+          "width": 405
+        }
+      ],
+      "items": [
+        {
+          "id": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/kcwerocuclj-muntpixj/annotation-page/6iqkm5ecwdt-muntpixj",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/kmeb0lqt9y-muntcy2q/annotation/sjtlks7wibd-muntpixi",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/kcwerocuclj-muntpixj",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/images-0002%2fIMAGES_0002.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2059,
+                "width": 3236,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/images-0002%2fIMAGES_0002.jpg",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 3236,
+                    "height": 2059,
+                    "sizes": [
+                      {
+                        "width": 101,
+                        "height": 64
+                      },
+                      {
+                        "width": 202,
+                        "height": 129
+                      },
+                      {
+                        "width": 405,
+                        "height": 257
+                      },
+                      {
+                        "width": 809,
+                        "height": 515
+                      },
+                      {
+                        "width": 1618,
+                        "height": 1030
+                      },
+                      {
+                        "width": 3236,
+                        "height": 2059
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 6662924,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://lauranemvalts.github.io/September-2026/manifests/annotations/page-2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://lauranemvalts.github.io/September-2026/manifests/annotations/7ae44588-228b-42ba-b75e-b1d9cf37762b",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "purpose": "commenting",
+                "value": "Bridge",
+                "format": "text/plain"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/kcwerocuclj-muntpixj",
+                "selector": {
+                  "type": "SvgSelector",
+                  "value": "<svg><polygon points=\"929.3081328751432,1426.9129438717068 1000.0641466208477,1422.1958762886597 1009.4982817869416,1412.761741122566 1082.6128293241695,1398.610538373425 1167.520045819015,1391.5349369988546 1212.3321878579611,1396.2520045819017 1205.2565864833905,1396.2520045819017 1455.2611683848797,1349.0813287514318 1481.2050400916382,1351.4398625429556 1481.2050400916382,1351.4398625429556 1500.073310423826,1342.0057273768614 1561.3951890034364,1337.2886597938145 1688.7560137457044,1308.9862542955327 1688.7560137457044,1308.9862542955327 1804.3241695303552,1280.683848797251 1867.3471120259937,1272.4856335791135 1886.8728522336771,1273.6082474226805 1886.8728522336771,1273.6082474226805 1917.5337915234823,1264.1741122565866 1997.7239404352806,1257.098510882016 2082.631156930126,1235.8717067583048 2113.2920962199314,1233.5131729667812 2118.009163802978,1231.154639175258 2162.821305841924,1219.3619702176404 2327.9186712485684,1193.418098510882 2327.9186712485684,1193.418098510882 2334.994272623139,1186.3424971363117 2533.1111111111113,1155.6815578465064 2533.1111111111113,1155.6815578465064 2655.7548682703323,1134.454753722795 2674.62313860252,1106.1523482245134 2693.491408934708,1127.3791523482246 2693.491408934708,1127.3791523482246 2705.2840778923255,1120.303550973654 2945.8545246277204,1084.9255441008017 2957.647193585338,1096.7182130584192 2957.647193585338,1096.7182130584192 2945.8545246277204,1110.8694158075602 2945.8545246277204,1134.454753722795 2936.4203894616267,1136.8132875143185 2936.4203894616267,1136.8132875143185 2886.8911798396334,1146.2474226804125 2872.7399770904926,1155.6815578465064 2858.588774341352,1148.6059564719358 2832.644902634593,1150.9644902634593 2577.9232531500575,1195.7766323024055 2573.2061855670104,1212.2863688430698 2551.979381443299,1226.4375715922108 2533.1111111111113,1217.0034364261169 2507.167239404353,1219.3619702176404 2507.167239404353,1219.3619702176404 2495.3745704467356,1219.3619702176404 2484.031721699737,1226.880115130901 2469.4306987399773,1219.3619702176404 2434.052691867125,1226.4375715922108 2370.372279495991,1242.9473081328754 2364.086546316134,1248.4210315327844 2353.8625429553263,1247.6643757159222 2344.3951954113813,1253.1602407010655 2330.9674361012508,1256.3197134799198 2312.8779631711595,1257.1206524672505 2292.540664375716,1264.1741122565866 2292.540664375716,1264.1741122565866 2280.7479954180985,1266.53264604811 2265.751570511158,1271.1832888754543 2245.2149974486074,1275.1326298490214 2206.0031296991483,1282.3837217638215 2175.7243197997864,1285.817401236945 2128.684329934388,1292.198631776887 2104.145886139983,1298.0898121383098 2080.6125414517705,1301.9956324992545 2040.327384800981,1309.572907855785 2005.7544402093686,1315.843446949116 1965.3477739663988,1321.8955773214598 1912.2748038818634,1337.73368072358 1868.211071071962,1348.3895725745817 1849.581332499067,1353.9400289649654 1823.1924398625429,1356.1569301260024 1781.0220968760937,1366.784495450907 1749.9727897087173,1376.3319367213896 1705.2173007219656,1383.4641911481547 1665.3689615131511,1390.483139470531 1621.2202491249575,1401.8874405505774 1580.2634593356245,1412.761741122566 1556.6781214203895,1422.1958762886597 1556.6781214203895,1422.1958762886597 1542.5269186712487,1408.044673539519 1518.9415807560138,1410.4032073310423 1490.639175257732,1438.705612829324 1490.639175257732,1438.705612829324 1469.4123711340208,1422.1958762886597 1448.1855670103096,1426.9129438717068 1436.392898052692,1441.0641466208476 1436.392898052692,1441.0641466208476 1403.3734249713632,1445.7812142038947 1403.3734249713632,1445.7812142038947 1389.2222222222222,1441.0641466208476 1372.7124856815578,1452.856815578465 1372.7124856815578,1452.856815578465 1363.278350515464,1457.5738831615122 1311.3906071019474,1438.705612829324 1292.5223367697595,1438.705612829324 1292.5223367697595,1438.705612829324 1287.8052691867126,1429.2714776632304 1301.9564719358534,1426.9129438717068 1299.5979381443299,1417.478808705613 1231.200458190149,1389.176403207331 1082.6128293241695,1398.610538373425 1009.4982817869416,1412.761741122566 1000.0641466208477,1422.1958762886597 969.4032073310425,1419.8373424971364 936.3837342497136,1429.2714776632304\" /></svg>"
+                }
+              },
+              "created": "2026-10-01T06:45:12.098Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://lauranemvalts.github.io/September-2026/manifests/manifest2.json/canvas/a7vwky64ti-mupfok70",
+      "type": "Canvas",
+      "height": 2047,
+      "width": 2173,
+      "label": {
+        "en": [
+          "Page 3"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Location"
+            ]
+          },
+          "value": {
+            "en": [
+              "Taevaskoja"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://iiif.archive.org/image/iiif/2/pdf-0001%2fPDF_0001.jpg/full/272,/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 256,
+          "width": 272
+        }
+      ],
+      "items": [
+        {
+          "id": "https://lauranemvalts.github.io/September-2026/manifests/manifest2.json/canvas/a7vwky64ti-mupfok70/annotation-page/fxmtyfzpswn-mupfok70",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://lauranemvalts.github.io/September-2026/manifests/manifest2.json/annotation/g1i94ecekyv-mupfok6z",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://lauranemvalts.github.io/September-2026/manifests/manifest2.json/canvas/a7vwky64ti-mupfok70",
+              "body": {
+                "id": "https://iiif.archive.org/image/iiif/2/pdf-0001%2fPDF_0001.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2047,
+                "width": 2173,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://iiif.archive.org/image/iiif/2/pdf-0001%2fPDF_0001.jpg",
+                    "protocol": "http://iiif.io/api/image",
+                    "width": 2173,
+                    "height": 2047,
+                    "sizes": [
+                      {
+                        "width": 136,
+                        "height": 128
+                      },
+                      {
+                        "width": 272,
+                        "height": 256
+                      },
+                      {
+                        "width": 543,
+                        "height": 512
+                      },
+                      {
+                        "width": 1087,
+                        "height": 1024
+                      },
+                      {
+                        "width": 2173,
+                        "height": 2047
+                      }
+                    ],
+                    "tiles": [
+                      {
+                        "width": 512,
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16
+                        ]
+                      }
+                    ],
+                    "profile": [
+                      "http://iiif.io/api/image/2/level2.json",
+                      {
+                        "formats": [
+                          "tif",
+                          "jpg",
+                          "gif",
+                          "png"
+                        ],
+                        "maxArea": 4448131,
+                        "qualities": [
+                          "bitonal",
+                          "default",
+                          "gray",
+                          "color"
+                        ],
+                        "supports": [
+                          "regionByPx",
+                          "sizeByW",
+                          "sizeByWhListed",
+                          "cors",
+                          "regionSquare",
+                          "sizeByDistortedWh",
+                          "canonicalLinkHeader",
+                          "sizeByConfinedWh",
+                          "sizeByPct",
+                          "jsonldMediaType",
+                          "regionByPct",
+                          "rotationArbitrary",
+                          "sizeByH",
+                          "baseUriRedirect",
+                          "rotationBy90s",
+                          "profileLinkHeader",
+                          "sizeByForcedWh",
+                          "sizeByWh",
+                          "mirroring"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://lauranemvalts.github.io/September-2026/manifests/annotations/page-3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://lauranemvalts.github.io/September-2026/manifests/annotations/95efd2c6-d274-4055-8252-096d7f34375d",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "purpose": "commenting",
+                "value": "Märküs:\n\nKruni Nr. 1 …. pansioon.\n•\nNr. 2 …. koolimaja või mängu-paviljon.\n•\nNr. 3 …. tööstuskoht.\n•\nNr.nr. 5,6,11,13 ja 60…. ärikohad.\n•\nNr 61 …. mänguplats.\n•\nNr.nr 4,7,8,9,10 ja 12 …. eluasemekohad\n•\nNr.nr. 14-59 …. ehiluskohad."
+              },
+              "target": "https://lauranemvalts.github.io/September-2026/manifests/manifest2.json/canvas/a7vwky64ti-mupfok70#xywh=112,820,710,311"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://digar.ee/b1467157/canvas/p2",
+      "type": "Canvas",
+      "height": 491,
+      "width": 315,
+      "label": {
+        "en": [
+          "Page 4"
+        ]
+      },
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Publisher"
+            ],
+            "et": [
+              "Kirjastaja"
+            ]
+          },
+          "value": {
+            "none": [
+              "[s.n.]"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Place of publication"
+            ],
+            "et": [
+              "Ilmumiskoht"
+            ]
+          },
+          "value": {
+            "none": [
+              "Tallinn"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Date of publication"
+            ],
+            "et": [
+              "Ilmumisaeg"
+            ]
+          },
+          "value": {
+            "none": [
+              "1933"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Language"
+            ],
+            "et": [
+              "Keel"
+            ]
+          },
+          "value": {
+            "en": [
+              "Estonian"
+            ],
+            "et": [
+              "eesti"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Material Type"
+            ],
+            "et": [
+              "Teose laad"
+            ]
+          },
+          "value": {
+            "en": [
+              "book"
+            ],
+            "et": [
+              "raamat"
+            ]
+          }
+        },
+        {
+          "label": {
+            "en": [
+              "Keywords"
+            ],
+            "et": [
+              "Märksõnad"
+            ]
+          },
+          "value": {
+            "en": [
+              "suvituskohad",
+              "Põlva County",
+              "Taevaskoja",
+              "geographical maps",
+              "guidebooks"
+            ],
+            "et": [
+              "suvituskohad",
+              "Põlvamaa",
+              "Taevaskoja",
+              "kaardid (vormimärksõna)",
+              "reisijuhid (vormimärksõna)"
+            ]
+          }
+        }
+      ],
+      "requiredStatement": {
+        "label": {
+          "en": [
+            "Rights"
+          ],
+          "et": [
+            "Kasutuslitsents"
+          ]
+        },
+        "value": {
+          "en": [
+            "Public Domain Mark"
+          ],
+          "et": [
+            "Teos on vabakasutuses"
+          ]
+        }
+      },
+      "rights": "https://creativecommons.org/publicdomain/mark/1.0/deed.en",
+      "thumbnail": [
+        {
+          "id": "https://i3fproxy.digar.ee/YToyOntzOjI6ImlkIjtzOjg6ImIxNDY3MTU3IjtzOjQ6ImZpbGUiO3M6MTU6IklNQUdFUy8wMDAyLmpwMiI7fQ/full/79,123/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "height": 123,
+          "width": 79,
+          "service": [
+            {
+              "id": "https://i3fproxy.digar.ee/YToyOntzOjI6ImlkIjtzOjg6ImIxNDY3MTU3IjtzOjQ6ImZpbGUiO3M6MTU6IklNQUdFUy8wMDAyLmpwMiI7fQ",
+              "type": "ImageService3",
+              "profile": "level1",
+              "height": 123,
+              "width": 79,
+              "extraFormats": [
+                "png"
+              ],
+              "extraQualities": [
+                "default",
+                "color",
+                "gray"
+              ],
+              "protocol": "http://iiif.io/api/image",
+              "sizes": [
+                {
+                  "width": 315,
+                  "height": 491
+                },
+                {
+                  "width": 158,
+                  "height": 246
+                },
+                {
+                  "width": 79,
+                  "height": 123
+                },
+                {
+                  "width": 40,
+                  "height": 62
+                },
+                {
+                  "width": 20,
+                  "height": 31
+                },
+                {
+                  "width": 10,
+                  "height": 16
+                }
+              ],
+              "tiles": [
+                {
+                  "width": 512,
+                  "height": 512,
+                  "scaleFactors": [
+                    1,
+                    2,
+                    4,
+                    8,
+                    16,
+                    32
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "partOf": [
+        {
+          "id": "https://files2.rara.ee/b1467157/manifest.json",
+          "type": "Manifest",
+          "label": {
+            "et": [
+              "Taevaskoja suvituskoha juht."
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "id": "https://digar.ee/b1467157/page/p2/2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://digar.ee/b1467157/annotation/p2-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "https://digar.ee/b1467157/canvas/p2",
+              "body": {
+                "id": "https://i3fproxy.digar.ee/YToyOntzOjI6ImlkIjtzOjg6ImIxNDY3MTU3IjtzOjQ6ImZpbGUiO3M6MTU6IklNQUdFUy8wMDAyLmpwMiI7fQ/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 491,
+                "width": 315,
+                "service": [
+                  {
+                    "id": "https://i3fproxy.digar.ee/YToyOntzOjI6ImlkIjtzOjg6ImIxNDY3MTU3IjtzOjQ6ImZpbGUiO3M6MTU6IklNQUdFUy8wMDAyLmpwMiI7fQ",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "http://example.org/iiif/book1/range/top",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Table of Content"
+        ],
+        "et": [
+          "Sisukord"
+        ]
+      },
+      "items": [
+        {
+          "id": "http://example.org/iiif/book1/range/intro",
+          "type": "Range",
+          "label": {
+            "none": [
+              "Suur Taevaskoda"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/cxpjxd3n6xl-muntjg7f",
+              "type": "Canvas"
+            }
+          ]
+        },
+        {
+          "id": "http://example.org/iiif/book1/range/intro",
+          "type": "Range",
+          "label": {
+            "none": [
+              "Suur Taevaskoda"
+            ]
+          },
+          "items": [
+            {
+              "id": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/cxpjxd3n6xl-muntjg7f",
+              "type": "Canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            27.049649,
+            58.109019
+          ]
+        }
+      }
+    ]
+  }
+}
