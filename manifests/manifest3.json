@@ -889,12 +889,12 @@
           "type": "Range",
           "label": {
             "none": [
-              "Suur Taevaskoda"
+              "Väike Taevaskoda"
             ]
           },
           "items": [
             {
-              "id": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/cxpjxd3n6xl-muntjg7f",
+              "id": "https://example.org/kmeb0lqt9y-muntcy2q/canvas/kcwerocuclj-muntpixj",
               "type": "Canvas"
             }
           ]
