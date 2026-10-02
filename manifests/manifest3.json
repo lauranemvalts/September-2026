@@ -584,6 +584,7 @@
               "type": "Annotation",
               "motivation": "commenting",
               "body": {
+                "type": "TextualBody",
                 "value": "Märküs:\n\nKruni Nr. 1 …. pansioon.\n•\nNr. 2 …. koolimaja või mängu-paviljon.\n•\nNr. 3 …. tööstuskoht.\n•\nNr.nr. 5,6,11,13 ja 60…. ärikohad.\n•\nNr 61 …. mänguplats.\n•\nNr.nr 4,7,8,9,10 ja 12 …. eluasemekohad\n•\nNr.nr. 14-59 …. ehiluskohad.",
                 "creator": {
                   "type": "Software",
