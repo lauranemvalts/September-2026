@@ -862,16 +862,15 @@
       "type": "Range",
       "label": {
         "en": [
-          "Table of Content"
+          "Table of Contents"
         ],
         "et": [
           "Sisukord"
         ]
       },
-      "viewingHint": "top",
       "items": [
         {
-          "id": "http://example.org/iiif/book1/range/intro",
+          "id": "http://example.org/iiif/book1/range/suur-taevaskoda",
           "type": "Range",
           "label": {
             "none": [
@@ -886,7 +885,7 @@
           ]
         },
         {
-          "id": "http://example.org/iiif/book1/range/intro",
+          "id": "http://example.org/iiif/book1/range/vaike-taevaskoda",
           "type": "Range",
           "label": {
             "none": [
