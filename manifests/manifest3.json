@@ -1,5 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
+  "http://iiif.io/api/extension/georef/1/context.json",
   "id": "https://lauranemvalts.github.io/September-2026/manifests/manifest2.json",
   "type": "Manifest",
   "behavior": [
@@ -600,6 +601,10 @@
               }
             }
           ]
+        },
+        {
+          "id": "https://annotations.allmaps.org/images/a8d9ef4fabf7f3a9",
+          "type": "AnnotationPage"
         }
       ]
     },
