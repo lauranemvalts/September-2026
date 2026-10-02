@@ -2,7 +2,7 @@
   "@context": [
     "http://iiif.io/api/extension/georef/1/context.json",
     "http://iiif.io/api/presentation/3/context.json"
-],
+  ],
   "id": "https://lauranemvalts.github.io/September-2026/manifests/manifest3.json",
   "type": "Manifest",
   "behavior": [
@@ -868,6 +868,7 @@
           "Sisukord"
         ]
       },
+      "viewingHint": "top",
       "items": [
         {
           "id": "http://example.org/iiif/book1/range/intro",
